@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pollution Gallery</title>
+</head>
+<body>
+    <header>
+        <h1>Gallery: Types of Pollution</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="link.html">Links</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="gallery">
+            <img src="images/photo1.jpg" alt="City smog due to air pollution" onclick="enlargeImage(this)">
+            <img src="images/photo2.jpg" alt="Industrial smoke stacks contributing to air pollution" onclick="enlargeImage(this)">
+            <img src="images/photo3.jpg" alt="Polluted river with plastic waste" onclick="enlargeImage(this)">
+            <img src="images/photo4.jpg" alt="Marine life affected by water pollution" onclick="enlargeImage(this)">
+            <img src="images/photo5.jpg" alt="Garbage and waste contributing to land pollution" onclick="enlargeImage(this)">
+            <img src="images/photo6.jpg" alt="Plastic pollution on the beach" onclick="enlargeImage(this)">
+            <img src="images/photo7.jpg" alt="Wildfire smoke causing air pollution" onclick="enlargeImage(this)">
+            <img src="images/photo8.jpg" alt="Chemical spill in water affecting marine ecosystems" onclick="enlargeImage(this)">
+            <img src="images/photo9.jpg" alt="Children affected by air pollution" onclick="enlargeImage(this)">
+            <img src="images/photo10.jpg" alt="Farming with pesticides causing land pollution" onclick="enlargeImage(this)">
+            <img src="images/photo11.jpg" alt="Deforestation and soil erosion due to land pollution" onclick="enlargeImage(this)">
+            <img src="images/photo12.jpg" alt="Pollution affecting urban wildlife" onclick="enlargeImage(this)">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Understanding Pollution. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function enlargeImage(img) {
+            window.open(img.src, '_blank');
+        }
+    </script>
+</body>
+</html>
+
