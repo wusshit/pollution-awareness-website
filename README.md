@@ -1,2 +1,1 @@
 # pollution-awareness-website
-.
